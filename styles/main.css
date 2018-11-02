@@ -7,9 +7,13 @@ h1 {
 }
 
 .navbar {
-    background: #1676DD;
-    padding: 0;
-    height: 60px;
+  background: #1676DD;
+  padding: 0;
+  height: 60px;
+}
+
+.navbar:hover img{
+  opacity: 0.8;
 }
 
 /* sticky btn */
@@ -115,6 +119,13 @@ ol.carousel-indicators li.active {
   max-width: 705px;
 }
 
+.grow:hover
+{
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 /* Images Div */
 .images-div .col{
   padding: 0;
@@ -138,10 +149,9 @@ ol.carousel-indicators li.active {
   font-family: 'Roboto', sans-serif;
   letter-spacing: 2px;
   border-radius: 5px;
-  /* drop shadow needed */
   width: 215px;
   height: 40px;
-  background-image: linear-gradient(to right,  #F36819, #F7931D);
+  background-image: linear-gradient(to right,  #F36819, #F7931D) !important;
   color: white;
 }
 
@@ -215,3 +225,12 @@ ol.carousel-indicators li.active {
   letter-spacing: 2px;
   text-align: center;
 }
+
+/* .slide1 {
+  animation: slide 4s 1;
+}
+
+@keyframes slide {
+	from { right: -150%; }
+	to { left: 100%; }
+} */
