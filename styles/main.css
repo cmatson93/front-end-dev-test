@@ -1,3 +1,204 @@
 h1 {
   font-size: 35px
 }
+
+.container-fluid {
+  padding:0 ! important;
+}
+
+.navbar {
+    background: #1676DD;
+    padding: 0;
+    height: 60px;
+}
+
+/* Carousel styles */
+.carousel {
+  height: 509px;
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.overlay {
+  opacity: .3; 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #F36819, #283647);
+}
+
+ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+   width: 1rem;
+   height: 1rem;
+   margin: 0;
+   border-radius: 50%;
+   border: 0.5px solid #283647;
+   background: transparent;
+   bottom: -25px;
+}
+ol.carousel-indicators li {
+   background: transparent;
+   border-color: #283647;
+   margin-left: .5rem;
+   margin-right: .5rem;
+}
+ol.carousel-indicators li.active {
+   background: black;
+}
+
+.carousel-caption {
+  text-align: left !important;
+}
+
+/* Phrase Div */
+.phrases {
+  display: grid;
+  grid-template-columns: 42% 42%;
+  grid-gap:  0% 16%;
+  margin: 60px 15% 10px 15% ;
+}
+
+.phrase {
+  display: flex;
+}
+
+.page-icon {
+  padding-right: 60px;
+}
+
+/* Slanted Div */
+.slanted-div {
+  background-image: url("../assets/slanted-gradient-background.svg");
+  height: 240px;
+}
+
+.slanted-div p {
+  padding: 100px 210px 20px 210px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+/* Content Div */
+.content-div {
+  padding: 60px 160px;
+}
+
+.conent-div , .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+.content-img {
+  height: 350px;
+  max-width: 705px;
+}
+
+/* Images Div */
+.images-div .col{
+  padding: 0;
+}
+
+.images-div .row {
+  padding: 30px 0;
+}
+
+.images-div .font2 {
+  text-align: center;
+}
+
+.images-div .font5 {
+  padding: 10px 80px;
+}
+
+/* Button styling */
+.my-btn {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  /* drop shadow needed */
+  width: 215px;
+  height: 40px;
+  background-image: linear-gradient(to right,  #F36819, #F7931D);
+  color: white;
+}
+
+.lorem {
+  padding-right: 3px;
+}
+
+/* Modal Styling */
+.modal-content {
+  background-color: rgba(0,0,0,0.0)!important;
+  border: transparent !important;
+  color: white;
+}
+
+.modal-header, .modal-footer {
+  border: none !important;
+  display: flex !important;
+  justify-content: center !important;
+  padding: 0 !important;
+}
+
+.form-group  {
+  padding: 0 !important;
+}
+
+/* Font type classes */
+.font1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  color: white;
+}
+
+.font2B, .lorem {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #F36819;
+}
+
+.font2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #F36819;
+}
+
+.font3, .ipsum {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+  color: #283647;
+}
+
+.font4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #F7931D;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.font5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.font6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 55px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-align: center;
+}

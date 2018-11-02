@@ -3,14 +3,196 @@
   <head>
     <meta charset="utf-8">
     <title>Rooster Grin Front End Dev Test</title>
-    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous">
+    <!-- Google Fonts Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
   </head>
   <body>
+    <div class="container-fluid">
 
-    <pre>
-      <h1>Hello World</h1>
-    </pre>
+      <nav class="navbar d-flex justify-content-center">
+        <a class="navbar-brand " href="#">
+          <img src="./assets/igniter-logo-white.png"  height="55" class=" align-top " alt="Ignite">
+        </a>
+      </nav>
 
+      <div id="carouselControls" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carouselControls" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselControls" data-slide-to="1"></li>
+          <li data-target="#carouselControls" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" id="0">
+            <div class="overlay"></div>
+            <img class="d-block w-100"  src="./assets/hero-img.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="font1">Lorem Ipsum Lorem Ipsum</div>
+              <button class="my-btn" data-toggle="modal" data-target="#myModal">Button</button>
+            </div>
+          </div>
+          <div class="carousel-item" id="1">
+            <div class="overlay"></div>
+            <img class="d-block w-100"  src="./assets/hero-img.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="font1">Lorem Ipsum Lorem Ipsum</div>
+              <button class="my-btn" data-toggle="modal" data-target="#myModal">Button</button>
+            </div>
+          </div>
+          <div class="carousel-item" id="2">
+            <div class="overlay"></div>
+            <img class="d-block w-100"  src="./assets/hero-img.jpg" alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <div class="font1">Lorem Ipsum Lorem Ipsum</div>
+              <button class="my-btn" data-toggle="modal" data-target="#myModal" >Button</button>
+            </div>
+          </div>
+        </div>
+        
+        
+      </div>
+
+      <div class="phrases font5">
+        <div class=" phrase">
+          <img class="page-icon" src="./assets/page-icon.svg.svg" alt="page-icon">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero fugit laborum in?</p>
+        </div>
+        <div class=" phrase">
+          <img class="page-icon" src="./assets/page-icon.svg.svg" alt="page-icon">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero fugit laborum in?</p>          
+        </div>
+        <div class=" phrase">
+          <img class="page-icon" src="./assets/page-icon.svg.svg" alt="page-icon">
+          <p>Lorem ipsum, dolor si t amet consectetur adipisicing elit. Vero fugit laborum in?</p>
+        </div>
+        <div class=" phrase">
+          <img class="page-icon" src="./assets/page-icon.svg.svg" alt="page-icon">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero fugit laborum in?</p>
+        </div>
+      </div>
+
+      <div class="slanted-div">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum necessitatibus inventore deleniti rem eligendi, modi ea molestiae dolores perferendis eum. Cum minus quos quasi suscipit, tempore explicabo molestias fuga atque.</p>
+      </div>
+
+      <div class="content-div col">
+        <div class="row">
+          <div class="lorem">Lorem </div><div class="ipsum">Ipsum</div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore laudantium aliquam atque, 
+              repudiandae veritatis i
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam,
+               culpa delectus quos eaque impedit deleniti eius ad in incidunt inventore saepe.
+              et placeat praesentium!
+              culpa delectus quos eaque impedit deleniti eius ad in incidunt inventore saepe.
+            </p>
+          </div>
+          <div class="col">
+              <button class="my-btn" data-toggle="modal" data-target="#myModal">Button</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="font6">240%</div>
+            <p class="font4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col">
+            <div class="font6">105%</div>
+            <p class="font4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="col">
+            <div class="font6">159%</div>
+            <p class="font4">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>            
+          </div>
+        </div>
+      </div>
+
+      <div class="images-div col">
+        <div class="row">
+          <div class="lorem">Lorem </div>
+          <div class="ipsum">Ipsum</div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="font2">Lorem Ipsum dolor sit amet</div>
+            <div class="font4">lorem ipsum dolor sit amet lorem</div>
+            <div class="font5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quae vitae doloribus a. Fugit temporibus sint tenetur sapiente alias labore iusto sunt natus. Illo reiciendis tempore itaque perspiciatis ipsam ab.</div>
+          </div>
+          <div class="col">
+            <img src="./assets/img1.jpg" alt="Photo" class="content-img">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <img src="./assets/img2.jpg" alt="Photo" class="content-img">            
+          </div>
+          <div class="col">
+            <div class="font2">Lorem Ipsum dolor sit amet</div>
+            <div class="font4">lorem ipsum dolor sit amet lorem</div>
+            <div class="font5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut quae vitae doloribus a. Fugit
+              temporibus sint tenetur sapiente alias labore iusto sunt natus. Illo reiciendis tempore itaque perspiciatis ipsam ab.</div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class=" font2" id="modalCenterTitle">LOREM IPSUM</h5>
+            </div>
+            <div class="modal-body">
+              <div class="form-group">
+                <label for="yourName">Your Name</label>
+                <input type="name" class="form-control" id="yourName"  placeholder="">
+              </div>
+              <div class="form-group row">
+                <div class="col-6">
+                  <label for="email">Your Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="">
+                </div>
+                <div class="col-6">
+                  <label for="number">Phone Number</label>
+                  <input type="number" class="form-control" id="number" placeholder="">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="modal-footer justify-content-center">
+              <button type="button" class="my-btn">Button</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    
+    <!-- Optional JavaScript -->
     <script type="text/javascript" src="bundle.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
   </body>
 </html>
+ 
