@@ -12,6 +12,19 @@ h1 {
     height: 60px;
 }
 
+/* sticky btn */
+.sticky-btn {
+  right: 0;
+  position: fixed;
+  z-index: 1;
+  padding: 3px;
+  top: 250px;
+  border-radius: 5px 0 0 5px;
+  width: 50px;
+  height: 40px;
+  background: url("../assets/envelope-icon.svg") #F7931D center no-repeat;
+}
+
 /* Carousel styles */
 .carousel {
   height: 509px;
